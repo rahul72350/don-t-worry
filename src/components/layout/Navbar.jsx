@@ -7,7 +7,7 @@ function Navbar(){
 
     return(
     <header className="h-16">
-        <div className="container px-4 h-full bg-white/15 backdrop-blur-xl border border-white/30 rounded-3xl shadow-xl relative z-20">
+        <div className="mx-auto max-w-300 px-4 h-full bg-white/15 backdrop-blur-xl border border-white/30 rounded-3xl shadow-xl relative z-20">
             <div className="flex items-center justify-between h-full">
                 <div className="logo text-white text-xl">&lt;&lt; Don&apos;t worry</div>
                     <button className="border-2 rounded-full p-2 md:hidden" type="button" aria-label="Open menu" onClick={()=>setOpen(!open)}>
