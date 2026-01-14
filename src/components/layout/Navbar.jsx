@@ -40,7 +40,7 @@ function Navbar(){
                             <li><a className="block text-2xl">About</a></li>
                             <li><a className="block text-2xl">features</a></li>
                             <li><a className="block text-2xl">Contacts</a></li>
-                            <li><a className="block text-xl text-red-900">Sign out</a></li>
+                            <li><a className="block text-xl text-red-600">Sign Out |→</a></li>
                         </ul>   
                     </nav>
 
